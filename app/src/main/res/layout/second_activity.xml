@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#34CCAE"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RANDOM NUMBER BELOW :"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/str_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:textColor="#005EFF" />
+    <Button
+        android:id="@+id/gobackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Go Back"
+        android:textAllCaps="false" />
+
+</LinearLayout>
